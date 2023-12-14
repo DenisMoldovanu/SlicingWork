@@ -1,0 +1,240 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Inter', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+/*General Classes */
+.container{
+    max-width:1680px;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.mg-top{
+    margin-top: 144px;
+}
+
+.section-name{
+    color: #6276FF;
+    font-family: Indivisible;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+.title-section{
+    color: #01002A;
+    margin: 10px 0px;
+    font-family: Indivisible;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.subtitle-section{
+    color: #575673;
+    text-align: center;
+    font-family: Indivisible;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 610px;
+    margin: 0 auto;
+}
+/* Header Section styles */
+.bg-top{
+background: linear-gradient(180deg, rgba(98, 118, 255, 0.35) 0%, rgba(98, 118, 255, 0.85) 100%);
+}
+.header-section{
+    padding: 24px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-section img{
+    width: 230px;
+    height: 54px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.nav-menu ul li a{
+color: #01002A;
+font-family: Indivisible;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+}
+
+.nav-menu__btns{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.nav-menu__btns .login-btn{
+    border-radius: 8px;
+    border: 1px solid rgba(73, 95, 255, 0.25);
+    background: #D8DDFF;
+    padding: 15px;
+    width: 109px;
+    text-align: center;
+    color: #495FFF;
+    text-align: center;
+    text-decoration: none;
+    font-family: Indivisible;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+.nav-menu__btns .join-btn{
+    border-radius: 8px;
+    background: #495FFF;
+    text-align: center;
+    font-family: Indivisible;
+    font-size: 14px;
+    width: 134px;
+    padding: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: normal;
+    color: #fff;
+}
+.hero-section{
+    padding: 48px 0px 58px 0px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 38px;
+}
+.hero-title__block{
+    max-width: 640px;
+    width: 100%;
+}
+.hero-title__block h1{
+    color: #01002A;
+    font-family: Indivisible;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.hero-title__block p{
+    color: #575673;
+    font-family: Indivisible;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+.hero-btns__block{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.hero-btns__block .join-btn{
+    border-radius: 8px;
+    background: #495FFF;
+    display: flex;
+    width: 192px;
+    height: 54px;
+    padding: 12px 48px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Indivisible;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color:#fff;
+    text-decoration: none;
+}
+.hero-btns__block .contact-btn{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.50);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    height: 54px;
+    padding: 12px 48px;
+    justify-content: center;
+    align-items: center;
+    width: 179px;
+    text-decoration: none;
+}
+.hero-image__block{
+    max-width: 860px;
+    width: 100%;
+
+}
+.hero-image__block img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
