@@ -179,6 +179,9 @@ table {
 .pad-top {
     padding-top: 144px;
 }
+.mg-top {
+    margin-top: 144px;
+}
 
 .section-name {
     color: #6276ff;
@@ -397,7 +400,7 @@ table {
     z-index: -1;
     opacity: 0.2;
     right: 0px;
-    bottom: -500px;
+    bottom: -390px;
 }
 .howit-works-section .subtitle-section {
     margin-bottom: 96px;
@@ -452,6 +455,7 @@ table {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    display: flex;
     margin-bottom: 16px;
 }
 .howit-works-section .content-block ul li::before {
@@ -463,4 +467,67 @@ table {
 }
 .howit-works-section .btns__container {
     justify-content: center;
+}
+
+/* Benefits Section */
+.bg-benefits {
+    padding-bottom: 144px;
+    background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.75) 0%,
+            rgba(255, 255, 255, 0.75) 100%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(98, 118, 255, 0.35) 0%,
+            rgba(98, 118, 255, 0.85) 100%
+        );
+    position: relative;
+}
+.bg-benefits .bg-benefit {
+    position: absolute;
+    z-index: 0;
+    right: 0px;
+    top: 0px;
+}
+.benefits-section .title-section {
+    margin-bottom: 96px;
+}
+.benefits-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 96px;
+    column-gap: 48px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.benefits-item {
+    flex: 1 1 410px;
+}
+.benefits-item h5 {
+    color: #01002a;
+    text-align: center;
+    font-family: Indivisible;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 7px;
+}
+.benefits-item p {
+    color: #575673;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 373px;
+    margin: 0 auto;
+}
+.benefit-item-icon-block {
+    margin-bottom: 20px;
 }
