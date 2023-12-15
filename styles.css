@@ -230,6 +230,32 @@ table {
     max-width: 610px;
     margin: 0 auto;
 }
+@media screen and (max-width: 992px) {
+    .pad-top {
+        padding-top: 72px;
+    }
+    .mg-top {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 767px) {
+  
+    .section-name {
+        font-size: 12px;
+    }
+    .title-section {
+        font-size: 32px;
+        max-width: 330px;
+        margin: 5px auto;
+        line-height: 32px;
+    }
+    .subtitle-section{
+        font-size:16px;
+        max-width: 370px;
+        width: 100%;
+        line-height: 20px;
+    }
+}
 
 /* Header Section styles */
 .bg-top {
@@ -389,6 +415,7 @@ table {
 }
 @media screen and (max-width: 767px) {
 }
+
 /* Hero Section styles*/
 .hero-section {
     padding: 48px 0px 58px 0px;
@@ -462,6 +489,46 @@ table {
     display: block;
     width: 100%;
     height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 991px) {
+    .hero-section .flex-container {
+        flex-direction: column;
+    }
+    .hero-title__block {
+        max-width: 100%;
+    }
+    .hero-title__block h1,p {
+        max-width: 550px;
+    }
+    .hero-title__block p {
+        margin-bottom: 32px;
+      
+    }
+}
+@media screen and (max-width: 767px) {
+    .hero-btns__block {
+        justify-content: space-between;
+    }
+    .hero-btns__block .join-btn {
+        width: 100%;
+    }
+    .hero-btns__block .contact-btn {
+        width: 100%;
+    }
+    .hero-title__block h1 {
+        font-size:32px;
+        max-width: 335px;
+        line-height: 32px;
+    }
+    .hero-title__block p {
+        font-size: 16px;
+        max-width: 300px;
+        line-height: 22px;
+    }
 }
 
 /* Partners section styles */
@@ -568,6 +635,60 @@ table {
     justify-content: center;
 }
 
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 991px) {
+    .howit-works-section{
+        padding-bottom: 72px;
+        position: relative;
+        z-index: 2;
+    }
+    .howit-works-section .offers-block {
+        flex-direction: column;
+        margin-bottom: 62px;
+    }
+    .howit-works-section .content-block {
+        max-width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 48px;
+    }
+    .howit-works-section .image-block {
+        max-width: 100%;
+    }
+    .howit-works-section .image-block img {
+        margin: 0 auto;
+    }
+    .bg-howit-works {
+        background: #F6F7FF;
+    }
+    .howit-works-section .affiliates-block {
+        flex-direction: column-reverse;
+        margin-bottom: 62px;
+    }
+    .howit-works-section .metrics-block {
+        margin-bottom: 72px;
+        flex-direction: column;
+    }
+    .bg-howit-works .bg-item-right {
+        z-index: 0;
+    }
+    .bg-howit-works .bg-item-left {
+        z-index: 0;
+    }
+    .bg-howit-works .bg-item-bottom {
+        z-index: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .howit-works-section .subtitle-section {
+        display:none;
+    }
+    .howit-works-section .title-section {
+        margin-bottom:72px;
+    }
+}
 /* Benefits Section */
 .bg-benefits {
     padding-bottom: 144px;
@@ -630,6 +751,24 @@ table {
 .benefit-item-icon-block {
     margin-bottom: 20px;
 }
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 991px) {
+    .bg-benefit{
+        display: none;
+    }
+    .benefits-section .title-section {
+        margin-bottom: 72px;
+    }
+    .benefits-container{
+        row-gap: 42px;
+    }
+}
+@media screen and (max-width: 767px) {
+ 
+}
+
 
 /* Get In Touch styles */
 
@@ -854,4 +993,36 @@ footer {
     font-weight: 400;
     line-height: 20px;
     opacity: 0.75;
+}
+
+@media screen and (max-width: 991px) {
+ .footer-nav{
+    flex-direction: column;
+    gap: 48px;
+ }
+}
+@media screen and (max-width: 767px) {
+    footer {
+        padding: 48px 0px;
+    }
+    .footer-logo{
+        margin-right: auto;
+     }
+     .footer-nav-menu {
+        align-items: flex-start;
+        gap: 12px;
+        flex-direction: column;
+        margin-right: auto;
+    }
+    .footer-nav-menu ul {
+        align-items: flex-start;
+        gap: 12px;
+        flex-direction: column;
+    }
+    .footer-socials{
+        margin-right: auto;
+    }
+    .footer-line{
+        margin-bottom:32px;
+    }
 }
