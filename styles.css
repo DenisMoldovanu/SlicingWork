@@ -158,6 +158,7 @@ table {
     font-weight: 500;
     line-height: normal;
     color: #fff;
+    text-decoration: none;
 }
 .btns__container .schedule-call {
     display: flex;
@@ -174,6 +175,7 @@ table {
     line-height: normal;
     border-radius: 8px;
     background: #e3e6ff;
+    text-decoration: none;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
 }
 .pad-top {
@@ -530,4 +532,229 @@ table {
 }
 .benefit-item-icon-block {
     margin-bottom: 20px;
+}
+
+/* Get In Touch styles */
+
+.bg-getintouch {
+    background: #f6f7ff;
+    position: relative;
+    padding-bottom: 144px;
+}
+.getintouch-section {
+    justify-content: space-between;
+    height: 660px;
+    padding-bottom: 196px;
+}
+.getintouch-content {
+    max-width: 100%;
+    margin-right: 50px;
+    padding-right: 750px;
+}
+.getintouch-content .section-name {
+    text-align: left;
+}
+.getintouch-content .title-section {
+    text-align: left;
+    margin-bottom: 24px;
+}
+.getintouch-content .subtitle-section {
+    text-align: left;
+    margin-bottom: 48px;
+    max-width: 470px;
+}
+.getintouch-img-block {
+    position: absolute;
+    max-width: 100%;
+    right: 0px;
+    padding-left: 550px;
+}
+.getintouch-img-block img {
+    max-width: 100%;
+}
+.getintouch-cards-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: -95px;
+    right: 345px;
+}
+.card-item {
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0px 3px 12px 0px rgba(94, 94, 94, 0.08);
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    max-width: 440px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+.card-item p {
+    color: #575673;
+    font-family: Indivisible;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.card-item .provider {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.card-item .provider .name {
+    color: #495fff;
+    font-family: Indivisible;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+}
+.card-item .provider .stack {
+    color: #575673;
+    font-family: Indivisible;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Swiper Section Style */
+.swiper {
+    height: 385px;
+}
+.swiper-section {
+    padding-top: 144px;
+    padding-top: 96px;
+}
+.swiper-container {
+    max-width: 955px;
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 0px 100px; */
+}
+.swiper-profile-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+    gap: 24px;
+}
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.profile-name .name {
+    color: #01002a;
+    font-family: Indivisible;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.profile-name .stack {
+    color: #01002a;
+    font-family: Indivisible;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.swiper-content p {
+    color: #575673;
+    text-align: center;
+    font-family: Indivisible;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+.swiper-button-next::after {
+    color: #575673;
+    opacity: 0.5;
+    font-size: 30px;
+}
+.swiper-button-prev::after {
+    color: #575673;
+    opacity: 0.5;
+    font-size: 30px;
+}
+
+/* Footer styles */
+footer {
+    background: #01002a;
+    padding: 96px 0px;
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.footer-logo img {
+    width: 212px;
+    height: 50px;
+}
+.footer-nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.footer-nav-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.footer-nav-menu ul li a {
+    color: #fff;
+    font-family: Indivisible;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+}
+.footer-nav-menu .contact-btn {
+    display: flex;
+    width: 128px;
+    height: 44px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Indivisible;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    background: #495fff;
+}
+.footer-socials ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.footer-line {
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid rgba(246, 247, 255, 0.15);
+    margin-bottom: 48px;
+}
+.all-rights {
+    color: #f6f7ff;
+    font-family: Indivisible;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.75;
 }
