@@ -42,3 +42,11 @@ window.addEventListener("resize", () => {
         body.classList.remove("overflow");
     }
 });
+
+document.addEventListener("click", function (event) {
+    const isClickInsideMobileNav = mobileNav.contains(event.target);
+    const isClickBurgerBtn = burgerBtn.contains(event.target);
+    if (!isClickInsideMobileNav && !isClickBurgerBtn) {
+        closeMobileNav();
+    }
+});
