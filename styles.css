@@ -356,7 +356,15 @@ table {
     width: 28px;
     height: 28px;
 }
-
+.mobile-links ul li a {
+    color: #01002a;
+    font-family: Indivisible;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
 @media screen and (min-width: 992px) {
     .mobile-nav {
         display: none;
