@@ -348,7 +348,7 @@ table {
             rgba(255, 255, 255, 0.5) 100%
         ),
         linear-gradient(180deg, #d6dbff 0%, #b7c0ff 100%);
-    padding: 16px 16px 32px;
+    padding: 24px 16px 32px;
 }
 .mobile-nav.active {
     opacity: 1;
@@ -516,9 +516,13 @@ table {
     }
     .hero-btns__block .join-btn {
         width: 100%;
+        padding: 12px;
+        font-size: 14px;
     }
     .hero-btns__block .contact-btn {
         width: 100%;
+        padding: 12px;
+        font-size: 14px;
     }
     .hero-title__block h1 {
         font-size:32px;
@@ -683,6 +687,9 @@ table {
     }
 }
 @media screen and (max-width: 767px) {
+    .bg-howit-works{
+        overflow: hidden;
+    }
     .howit-works-section .subtitle-section {
         display:none;
     }
@@ -920,9 +927,13 @@ table {
 @media screen and (max-width: 767px) {
     .btns__container .join-now {
         width: 100%;
+        font-size: 14px;
+        padding: 12px;
     }
     .btns__container .schedule-call{
         width: 100%;
+        font-size: 14px;
+        padding: 12px;
     }
 }
 
@@ -1012,11 +1023,11 @@ table {
     }
     .swiper-profile-content {
         justify-content: flex-start;
-        margin-bottom: 0px;
+        margin-bottom: 55px;
         margin-top: 23px;
     }
     .swiper {
-        height: 350px;
+        height: auto;
     }
     .swiper-button-prev{
         display: none;
@@ -1026,7 +1037,10 @@ table {
     }
 }
 @media screen and (max-width: 767px) {
-  
+    .swiper-content p {
+        font-size: 14px;
+        line-height: 22px;
+    }
 }
 
 /* Footer styles */
