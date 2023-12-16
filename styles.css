@@ -545,8 +545,31 @@ table {
 }
 .partners-section .animated-brands-content img {
     display: block;
-    max-width: 100%;
-    margin: 0 auto;
+
+}
+
+.animated-brands-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.animated-brands-content {
+    width: 200%; /* Adjust the width as per your content */
+    animation: brandsAnimation 10s linear infinite;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes brandsAnimation {
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(-5%); /* Move from right to left till end -5% */
+    }
+    100% {
+        transform: translateX(0%); /* Go back from left to right -5% */
+    }
 }
 
 /* How it Works section styles */
@@ -1147,3 +1170,5 @@ footer {
         margin-bottom:32px;
     }
 }
+
+  
