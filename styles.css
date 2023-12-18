@@ -103,6 +103,7 @@ section {
 body {
     line-height: 1;
     font-family: "Inter", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 ol,
 ul {
@@ -151,6 +152,9 @@ table {
     display: flex;
     align-items: center;
 }
+a:hover{
+    opacity: 0.5;
+}
 .btns__container {
     gap: 24px;
 }
@@ -164,7 +168,8 @@ table {
     border-radius: 8px;
     background: #495fff;
     text-align: center;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -180,7 +185,8 @@ table {
     align-items: center;
     color: #495fff;
     text-align: center;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -199,7 +205,8 @@ table {
 
 .section-name {
     color: #6276ff;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -212,7 +219,8 @@ table {
 .title-section {
     color: #01002a;
     margin: 10px 0px;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
@@ -222,7 +230,8 @@ table {
 .subtitle-section {
     color: #575673;
     text-align: center;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -230,7 +239,7 @@ table {
     max-width: 610px;
     margin: 0 auto;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .pad-top {
         padding-top: 72px;
     }
@@ -286,7 +295,8 @@ table {
 
 .nav-menu ul li a {
     color: #01002a;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -309,7 +319,8 @@ table {
     color: #495fff;
     text-align: center;
     text-decoration: none;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -320,7 +331,8 @@ table {
     border-radius: 8px;
     background: #495fff;
     text-align: center;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     width: 134px;
     padding: 16px;
@@ -384,7 +396,8 @@ table {
 }
 .mobile-links ul li a {
     color: #01002a;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -413,8 +426,6 @@ table {
         height: 44px;
     }
 }
-@media screen and (max-width: 767px) {
-}
 
 /* Hero Section styles*/
 .hero-section {
@@ -430,7 +441,8 @@ table {
 }
 .hero-title__block h1 {
     color: #01002a;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
@@ -439,7 +451,8 @@ table {
 }
 .hero-title__block p {
     color: #575673;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -461,7 +474,8 @@ table {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -475,7 +489,7 @@ table {
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
     display: flex;
     height: 54px;
-    padding: 12px 48px;
+    padding: 12px;
     justify-content: center;
     align-items: center;
     width: 179px;
@@ -488,11 +502,74 @@ table {
 .hero-image__block img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
+}
+.hero-image__block{
+    position: relative;
+    height: 630px;
+}
+.hero-img-variant{
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
+    transition: all 0.5s ease-in-out;
+}
+.hero-img-variant.active{
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    z-index: 2;
+}
+.click-block{
+    position: absolute;
+    bottom: 28%;
+    right: 35%;
+    width: 100px;
+    height: 70px;
+    background-color: transparent;
+    z-index: 8;
+    cursor: pointer;
+}
+.click-block.variant3{
+    bottom: 21%;
+    right: 30%;
+    width: 289px;
+    height: 175px;
+}
+.click-block.variant4{
+    display: none;
+}
+.click-block.variant5{
+    bottom: 21%;
+    right: 30%;
+    width: 289px;
+    height: 175px;
 }
 
-@media screen and (max-width: 1200px) {
-    
+@media screen and (max-width: 1400px) {
+    .click-block.variant1{
+        bottom: 32%;
+        right: 33%;
+        width: 100px;
+
+    }
+    .click-block.variant2{
+        bottom: 32%;
+        right: 33%;
+        width: 100px;
+        height: 70px;
+    }
+    .click-block.variant3{
+        bottom: 27%;
+        right: 30%;
+        width: 220px;
+        height: 139px;
+    }
+    .click-block.variant5{
+        bottom: 27%;
+        right: 30%;
+        width: 220px;
+        height: 139px;
+    }
 }
 @media screen and (max-width: 991px) {
     .hero-section .flex-container {
@@ -507,10 +584,47 @@ table {
     .hero-title__block p {
         margin-bottom: 32px;
         max-width: 550px;
-      
+    }
+    .click-block.variant1{
+        bottom: 27%;
+        right: 35%;
+        width: 100px;
+
+    }
+    .click-block.variant2{
+        bottom: 27%;
+        right: 35%;
+        width: 100px;
+        height: 70px;
+    }
+    .click-block.variant3{
+        bottom: 21%;
+        right: 31%;
+        height: 176px;
+        width: 273px;
+
+    }
+    .click-block.variant5{
+        bottom: 21%;
+        right: 31%;
+        height: 176px;
+        width: 273px;
     }
 }
 @media screen and (max-width: 767px) {
+    .click-block{
+        display: none;
+    }
+    .hero-image__block {
+        height: auto;
+    }
+    .hero-img-variant {
+        position: unset;
+        opacity: 1;
+    }
+    .hero-img-variant.variant2,.variant3,.variant4,.variant5 {
+        display: none !important;
+    }
     .hero-btns__block {
         justify-content: space-between;
     }
@@ -635,7 +749,8 @@ table {
 }
 .howit-works-section .content-block h4 {
     color: #01002a;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -644,7 +759,8 @@ table {
 }
 .howit-works-section .content-block ul li {
     color: #575673;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -663,9 +779,6 @@ table {
     justify-content: center;
 }
 
-@media screen and (max-width: 1200px) {
-    
-}
 @media screen and (max-width: 991px) {
     .howit-works-section{
         padding-bottom: 72px;
@@ -756,12 +869,13 @@ table {
     z-index: 2;
 }
 .benefits-item {
-    flex: 1 1 410px;
+    flex: 1 1 400px;
 }
 .benefits-item h5 {
     color: #01002a;
     text-align: center;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -782,9 +896,7 @@ table {
 .benefit-item-icon-block {
     margin-bottom: 20px;
 }
-@media screen and (max-width: 1200px) {
-    
-}
+
 @media screen and (max-width: 991px) {
     .bg-benefit{
         display: none;
@@ -796,10 +908,6 @@ table {
         row-gap: 42px;
     }
 }
-@media screen and (max-width: 767px) {
- 
-}
-
 
 /* Get In Touch styles */
 
@@ -862,7 +970,8 @@ table {
 }
 .card-item p {
     color: #575673;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -876,7 +985,8 @@ table {
 }
 .card-item .provider .name {
     color: #495fff;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -884,7 +994,8 @@ table {
 }
 .card-item .provider .stack {
     color: #575673;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -991,7 +1102,8 @@ table {
 }
 .profile-name .name {
     color: #01002a;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -999,7 +1111,8 @@ table {
 }
 .profile-name .stack {
     color: #01002a;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -1008,7 +1121,8 @@ table {
 .swiper-content p {
     color: #575673;
     text-align: center;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -1025,9 +1139,6 @@ table {
     font-size: 30px;
 }
 
-@media screen and (max-width: 1200px) {
-    
-}
 @media screen and (max-width: 991px) {
     .mobile-line{
         display: block;
@@ -1093,7 +1204,8 @@ footer {
 }
 .footer-nav-menu ul li a {
     color: #fff;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -1108,7 +1220,8 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -1131,7 +1244,8 @@ footer {
 }
 .all-rights {
     color: #f6f7ff;
-    font-family: Indivisible;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1170,5 +1284,3 @@ footer {
         margin-bottom:32px;
     }
 }
-
-  

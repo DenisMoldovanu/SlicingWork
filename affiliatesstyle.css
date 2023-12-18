@@ -1,0 +1,72 @@
+/* Hero styles  */
+
+.hero-section{
+    height: 736px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+    .hero-section{
+        height: auto;
+    }
+}
+
+/* Partners container */
+
+.brands-container{
+    padding: 44px 0px 144px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+.brands-container img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+
+/*How it Works section*/
+.howit-works-section .content-block {
+    max-width: 530px;
+}
+.content-block p{
+    color: #575673;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.content-block span{
+    color: #575673;
+    /* font-family: Indivisible; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: block;
+    margin-top: 5px;
+}
+.howit-works-section .connect-block .image-block img{
+    margin-left: -130px;
+}
+
+@media screen and (max-width: 1400px) {
+    .howit-works-section .connect-block .image-block img{
+        margin-left: -13px;
+    }
+}
+
+/*Benefit Section*/
+.benefits-item {
+    flex: 0 1 400px;
+}
+.benefits-item p {
+    max-width: 500px;
+}
