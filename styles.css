@@ -822,6 +822,9 @@ a:hover {
     .bg-howit-works .bg-item-bottom {
         z-index: 0;
     }
+    .howit-works-section .content-block h4 {
+        font-size: 24px;
+    }
 }
 @media screen and (max-width: 767px) {
     .bg-howit-works {
@@ -832,6 +835,10 @@ a:hover {
     }
     .howit-works-section .title-section {
         margin-bottom: 72px;
+    }
+    .howit-works-section .content-block ul li {
+        font-size: 14px;
+        line-height: 18px;
     }
 }
 /* Benefits Section */
