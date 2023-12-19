@@ -103,7 +103,7 @@ section {
 body {
     line-height: 1;
     font-family: "Inter", sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 ol,
 ul {
@@ -152,7 +152,7 @@ table {
     display: flex;
     align-items: center;
 }
-a:hover{
+a:hover {
     opacity: 0.5;
 }
 .btns__container {
@@ -169,7 +169,7 @@ a:hover{
     background: #495fff;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -186,7 +186,7 @@ a:hover{
     color: #495fff;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -206,7 +206,7 @@ a:hover{
 .section-name {
     color: #6276ff;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -220,7 +220,7 @@ a:hover{
     color: #01002a;
     margin: 10px 0px;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
@@ -231,7 +231,7 @@ a:hover{
     color: #575673;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -248,7 +248,6 @@ a:hover{
     }
 }
 @media screen and (max-width: 767px) {
-  
     .section-name {
         font-size: 12px;
     }
@@ -258,8 +257,8 @@ a:hover{
         margin: 5px auto;
         line-height: 32px;
     }
-    .subtitle-section{
-        font-size:16px;
+    .subtitle-section {
+        font-size: 16px;
         max-width: 370px;
         width: 100%;
         line-height: 20px;
@@ -296,7 +295,7 @@ a:hover{
 .nav-menu ul li a {
     color: #01002a;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -320,7 +319,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -332,7 +331,7 @@ a:hover{
     background: #495fff;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     width: 134px;
     padding: 16px;
@@ -397,7 +396,7 @@ a:hover{
 .mobile-links ul li a {
     color: #01002a;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -411,6 +410,9 @@ a:hover{
 }
 @media screen and (max-width: 1200px) {
     .nav-menu {
+        gap: 30px;
+    }
+    .nav-menu ul {
         gap: 30px;
     }
 }
@@ -442,7 +444,7 @@ a:hover{
 .hero-title__block h1 {
     color: #01002a;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
@@ -452,7 +454,7 @@ a:hover{
 .hero-title__block p {
     color: #575673;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -475,7 +477,7 @@ a:hover{
     align-items: center;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -504,22 +506,22 @@ a:hover{
     width: 100%;
     height: 100%;
 }
-.hero-image__block{
+.hero-image__block {
     position: relative;
     height: 630px;
 }
-.hero-img-variant{
+.hero-img-variant {
     position: absolute;
     opacity: 0;
     z-index: 0;
     transition: all 0.5s ease-in-out;
 }
-.hero-img-variant.active{
+.hero-img-variant.active {
     transition: all 0.5s ease-in-out;
     opacity: 1;
     z-index: 2;
 }
-.click-block{
+.click-block {
     position: absolute;
     bottom: 28%;
     right: 35%;
@@ -529,16 +531,16 @@ a:hover{
     z-index: 8;
     cursor: pointer;
 }
-.click-block.variant3{
+.click-block.variant3 {
     bottom: 21%;
     right: 30%;
     width: 289px;
     height: 175px;
 }
-.click-block.variant4{
+.click-block.variant4 {
     display: none;
 }
-.click-block.variant5{
+.click-block.variant5 {
     bottom: 21%;
     right: 30%;
     width: 289px;
@@ -546,25 +548,24 @@ a:hover{
 }
 
 @media screen and (max-width: 1400px) {
-    .click-block.variant1{
+    .click-block.variant1 {
         bottom: 32%;
         right: 33%;
         width: 100px;
-
     }
-    .click-block.variant2{
+    .click-block.variant2 {
         bottom: 32%;
         right: 33%;
         width: 100px;
         height: 70px;
     }
-    .click-block.variant3{
+    .click-block.variant3 {
         bottom: 27%;
         right: 30%;
         width: 220px;
         height: 139px;
     }
-    .click-block.variant5{
+    .click-block.variant5 {
         bottom: 27%;
         right: 30%;
         width: 220px;
@@ -585,26 +586,24 @@ a:hover{
         margin-bottom: 32px;
         max-width: 550px;
     }
-    .click-block.variant1{
+    .click-block.variant1 {
         bottom: 27%;
         right: 35%;
         width: 100px;
-
     }
-    .click-block.variant2{
+    .click-block.variant2 {
         bottom: 27%;
         right: 35%;
         width: 100px;
         height: 70px;
     }
-    .click-block.variant3{
+    .click-block.variant3 {
         bottom: 21%;
         right: 31%;
         height: 176px;
         width: 273px;
-
     }
-    .click-block.variant5{
+    .click-block.variant5 {
         bottom: 21%;
         right: 31%;
         height: 176px;
@@ -612,7 +611,7 @@ a:hover{
     }
 }
 @media screen and (max-width: 767px) {
-    .click-block{
+    .click-block {
         display: none;
     }
     .hero-image__block {
@@ -622,7 +621,10 @@ a:hover{
         position: unset;
         opacity: 1;
     }
-    .hero-img-variant.variant2,.variant3,.variant4,.variant5 {
+    .hero-img-variant.variant2,
+    .variant3,
+    .variant4,
+    .variant5 {
         display: none !important;
     }
     .hero-btns__block {
@@ -639,7 +641,7 @@ a:hover{
         font-size: 14px;
     }
     .hero-title__block h1 {
-        font-size:32px;
+        font-size: 32px;
         max-width: 335px;
         line-height: 32px;
     }
@@ -659,7 +661,6 @@ a:hover{
 }
 .partners-section .animated-brands-content img {
     display: block;
-
 }
 
 .animated-brands-container {
@@ -750,7 +751,7 @@ a:hover{
 .howit-works-section .content-block h4 {
     color: #01002a;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -760,7 +761,7 @@ a:hover{
 .howit-works-section .content-block ul li {
     color: #575673;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -780,7 +781,7 @@ a:hover{
 }
 
 @media screen and (max-width: 991px) {
-    .howit-works-section{
+    .howit-works-section {
         padding-bottom: 72px;
         position: relative;
         z-index: 2;
@@ -802,7 +803,7 @@ a:hover{
         margin: 0 auto;
     }
     .bg-howit-works {
-        background: #F6F7FF;
+        background: #f6f7ff;
     }
     .howit-works-section .affiliates-block {
         flex-direction: column-reverse;
@@ -823,14 +824,14 @@ a:hover{
     }
 }
 @media screen and (max-width: 767px) {
-    .bg-howit-works{
+    .bg-howit-works {
         overflow: hidden;
     }
     .howit-works-section .subtitle-section {
-        display:none;
+        display: none;
     }
     .howit-works-section .title-section {
-        margin-bottom:72px;
+        margin-bottom: 72px;
     }
 }
 /* Benefits Section */
@@ -875,7 +876,7 @@ a:hover{
     color: #01002a;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -898,13 +899,13 @@ a:hover{
 }
 
 @media screen and (max-width: 991px) {
-    .bg-benefit{
+    .bg-benefit {
         display: none;
     }
     .benefits-section .title-section {
         margin-bottom: 72px;
     }
-    .benefits-container{
+    .benefits-container {
         row-gap: 42px;
     }
 }
@@ -925,6 +926,8 @@ a:hover{
     max-width: 100%;
     margin-right: 50px;
     padding-right: 750px;
+    position: relative;
+    z-index: 2;
 }
 .getintouch-content .section-name {
     text-align: left;
@@ -971,7 +974,7 @@ a:hover{
 .card-item p {
     color: #575673;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -986,7 +989,7 @@ a:hover{
 .card-item .provider .name {
     color: #495fff;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -995,7 +998,7 @@ a:hover{
 .card-item .provider .stack {
     color: #575673;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1012,26 +1015,26 @@ a:hover{
         margin-right: 50px;
         padding-right: 0px;
     }
-    .getintouch-img-block{
+    .getintouch-img-block {
         position: unset;
         padding-left: 0px;
         margin-bottom: 72px;
     }
-    .getintouch-img-block img{
+    .getintouch-img-block img {
         display: none;
     }
-    .getintouch-cards-container{
+    .getintouch-cards-container {
         position: unset;
     }
-    .card-item{
+    .card-item {
         max-width: 800px;
     }
 }
 @media screen and (max-width: 991px) {
-    .bg-getintouch{
+    .bg-getintouch {
         padding-bottom: 0;
     }
-    .card-item{
+    .card-item {
         max-width: 100%;
     }
     .getintouch-section {
@@ -1064,7 +1067,7 @@ a:hover{
         font-size: 14px;
         padding: 12px;
     }
-    .btns__container .schedule-call{
+    .btns__container .schedule-call {
         width: 100%;
         font-size: 14px;
         padding: 12px;
@@ -1072,7 +1075,7 @@ a:hover{
 }
 
 /* Swiper Section Style */
-.mobile-line{
+.mobile-line {
     display: none;
 }
 .swiper {
@@ -1103,7 +1106,7 @@ a:hover{
 .profile-name .name {
     color: #01002a;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -1112,7 +1115,7 @@ a:hover{
 .profile-name .stack {
     color: #01002a;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -1122,7 +1125,7 @@ a:hover{
     color: #575673;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -1140,9 +1143,9 @@ a:hover{
 }
 
 @media screen and (max-width: 991px) {
-    .mobile-line{
+    .mobile-line {
         display: block;
-        background: #E3E6FF;
+        background: #e3e6ff;
         width: 70%;
         height: 1px;
         margin: 0 auto;
@@ -1163,10 +1166,10 @@ a:hover{
     .swiper {
         height: auto;
     }
-    .swiper-button-prev{
+    .swiper-button-prev {
         display: none;
     }
-    .swiper-button-next{
+    .swiper-button-next {
         display: none;
     }
 }
@@ -1205,7 +1208,7 @@ footer {
 .footer-nav-menu ul li a {
     color: #fff;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -1221,7 +1224,7 @@ footer {
     align-items: center;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -1245,7 +1248,7 @@ footer {
 .all-rights {
     color: #f6f7ff;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1254,19 +1257,19 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
- .footer-nav{
-    flex-direction: column;
-    gap: 48px;
- }
+    .footer-nav {
+        flex-direction: column;
+        gap: 48px;
+    }
 }
 @media screen and (max-width: 767px) {
     footer {
         padding: 48px 0px;
     }
-    .footer-logo{
+    .footer-logo {
         margin-right: auto;
-     }
-     .footer-nav-menu {
+    }
+    .footer-nav-menu {
         align-items: flex-start;
         gap: 12px;
         flex-direction: column;
@@ -1277,10 +1280,10 @@ footer {
         gap: 12px;
         flex-direction: column;
     }
-    .footer-socials{
+    .footer-socials {
         margin-right: auto;
     }
-    .footer-line{
-        margin-bottom:32px;
+    .footer-line {
+        margin-bottom: 32px;
     }
 }
