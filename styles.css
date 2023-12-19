@@ -144,7 +144,7 @@ table {
 .container {
     max-width: 1680px;
     width: 100%;
-    padding: 0 15px;
+    padding: 0 48px;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -245,6 +245,9 @@ a:hover {
     }
     .mg-top {
         margin-top: 0px;
+    }
+     .container {
+        padding: 0 25px;
     }
 }
 @media screen and (max-width: 767px) {
