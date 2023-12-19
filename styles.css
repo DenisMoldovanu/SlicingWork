@@ -413,10 +413,10 @@ a:hover {
 }
 @media screen and (max-width: 1200px) {
     .nav-menu {
-        gap: 30px;
+        gap: 20px;
     }
     .nav-menu ul {
-        gap: 30px;
+        gap: 20px;
     }
 }
 @media screen and (max-width: 991px) {
