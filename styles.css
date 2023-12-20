@@ -687,7 +687,7 @@ a:hover {
     overflow: hidden;
     position: relative;
     padding-bottom: 72px;
-    height: 400px;
+    height: 300px;
 }
 
 .animated-brands-content {
@@ -710,12 +710,10 @@ a:hover {
 }
 .brands-list img {
     mix-blend-mode: multiply;
+    height: 52px;
+    margin-right: 24px;
 }
-@media screen and (max-width: 1300px) {
-    .animated-brands-container {
-        height: 480px;
-    }
-}
+
 @media screen and (max-width: 1200px) {
     .animated-brands-content.active {
         left: -250px;
@@ -723,12 +721,7 @@ a:hover {
 }
 @media screen and (max-width: 991px) {
     .animated-brands-content {
-        width: 200%; /* Adjust the width as per your content */
-        display: flex;
-        align-items: center;
         position: unset;
-        left: 0px;
-        transition: none;
     }
     .animated-brands-content.active {
         left: 0px;
