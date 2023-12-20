@@ -141,6 +141,9 @@ table {
     transition: all 0.3s ease-in-out;
 }
 /*General Classes */
+html {
+    scroll-behavior: smooth;
+}
 .container {
     max-width: 1680px;
     width: 100%;
