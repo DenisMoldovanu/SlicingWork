@@ -246,7 +246,7 @@ a:hover {
     .mg-top {
         margin-top: 0px;
     }
-     .container {
+    .container {
         padding: 0 25px;
     }
 }
@@ -657,7 +657,21 @@ a:hover {
 
 /* Partners section styles */
 .bg-partners {
+    position: relative;
     background: #f6f7ff;
+}
+.bg-partners::before {
+    background: linear-gradient(
+        180deg,
+        rgba(246, 247, 255, 0) 0%,
+        #f6f7ff 100%
+    );
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    z-index: 2;
+    bottom: 0;
 }
 .partners-section .subtitle-section {
     margin-bottom: 48px;
@@ -669,6 +683,7 @@ a:hover {
 .animated-brands-container {
     overflow: hidden;
     position: relative;
+    padding-bottom: 72px;
 }
 
 .animated-brands-content {
@@ -676,6 +691,11 @@ a:hover {
     animation: brandsAnimation 10s linear infinite;
     display: flex;
     align-items: center;
+}
+.brands-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
 }
 
 @keyframes brandsAnimation {
