@@ -23,6 +23,7 @@ const swiperabout = new Swiper(".linkedin-section .swiper", {
         // when window width is >= 320px
         270: {
             slidesPerView: 1,
+            spaceBetween: 0,
         },
         420: {
             slidesPerView: 2,
