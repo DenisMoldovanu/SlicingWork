@@ -848,6 +848,9 @@ a:hover {
     .howit-works-section .content-block h4 {
         font-size: 24px;
     }
+    .brands-list {
+        height: 500px;
+    }
 }
 @media screen and (max-width: 767px) {
     .bg-howit-works {
@@ -862,6 +865,13 @@ a:hover {
     .howit-works-section .content-block ul li {
         font-size: 14px;
         line-height: 18px;
+    }
+    .brands-list {
+        height: 300px;
+        gap: 12px;
+    }
+    .partners-section .animated-brands-content .brands-list img {
+        height: 34px;
     }
 }
 /* Benefits Section */
