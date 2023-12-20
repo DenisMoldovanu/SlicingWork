@@ -1,20 +1,20 @@
 /* Hero styles  */
 
-.hero-section{
+.hero-section {
     height: 736px;
     display: flex;
     align-items: center;
 }
 
 @media screen and (max-width: 991px) {
-    .hero-section{
+    .hero-section {
         height: auto;
     }
 }
 
 /* Partners container */
 
-.brands-container{
+.brands-container {
     padding: 44px 0px 144px;
     display: flex;
     align-items: center;
@@ -22,30 +22,32 @@
     gap: 18px;
     flex-wrap: wrap;
 }
-.brands-container img{
+.brands-container img {
     max-width: 100%;
     display: block;
     height: auto;
 }
-
+.affiliate-partners::before {
+    display: none;
+}
 
 /*How it Works section*/
 .howit-works-section .content-block {
     max-width: 530px;
 }
-.content-block p{
+.content-block p {
     color: #575673;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
 }
-.content-block span{
+.content-block span {
     color: #575673;
     /* font-family: Indivisible; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -53,12 +55,12 @@
     display: block;
     margin-top: 5px;
 }
-.howit-works-section .connect-block .image-block img{
+.howit-works-section .connect-block .image-block img {
     margin-left: -130px;
 }
 
 @media screen and (max-width: 1400px) {
-    .howit-works-section .connect-block .image-block img{
+    .howit-works-section .connect-block .image-block img {
         margin-left: -13px;
     }
 }

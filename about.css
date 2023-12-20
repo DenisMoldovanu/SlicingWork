@@ -1,0 +1,267 @@
+.about-hero {
+    padding: 218px 0px 176px 0px;
+}
+.about-hero .hero-title__block {
+    max-width: 100%;
+}
+.about-hero .hero-title__block h1 {
+    color: #495fff;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.about-hero .hero-title__block p {
+    color: #01002a;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+@media screen and (max-width: 991px) {
+    .hero-section .flex-container {
+        flex-direction: column;
+    }
+    .hero-title__block {
+        max-width: 100%;
+    }
+    .hero-title__block h1 {
+        max-width: 100%;
+    }
+    .hero-title__block p {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .about-hero {
+        padding: 100px 0px 76px 0px;
+    }
+    .about-hero .hero-title__block h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .about-hero .hero-title__block p {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+/* Leaders Section */
+.bg-leaders {
+    background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.75) 0%,
+            rgba(255, 255, 255, 0.75) 100%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(98, 118, 255, 0.35) 0%,
+            rgba(98, 118, 255, 0.85) 100%
+        );
+    position: relative;
+}
+.leaders-section {
+    padding-bottom: 144px;
+}
+.leaders-section .subtitle-section {
+    margin-bottom: 72px;
+}
+.bg-leaders .bg-leader-absolute {
+    position: absolute;
+    z-index: 0;
+    left: -430px;
+    top: -105px;
+}
+.bg-leaders .container {
+    position: relative;
+}
+.bg-leaders .bg-item-bottom {
+    position: absolute;
+    z-index: 0;
+    opacity: 0.2;
+    right: 0px;
+    /* bottom: -390px; */
+}
+.leaders-profiles-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    row-gap: 96px;
+    column-gap: 72px;
+}
+.leaders-profiles-container .leader-item {
+    flex: 0 1 270px;
+}
+.leaders-profiles-container .leader-item img {
+    margin-bottom: 24px;
+}
+.leaders-profiles-container .leader-item .leader-name {
+    color: #01002a;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.leaders-profiles-container .leader-item .leader-position {
+    color: #575673;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+@media screen and (max-width: 991px) {
+    .leaders-section .title-section {
+        max-width: 100%;
+    }
+    .bg-leaders .bg-item-bottom {
+        display: none;
+        /* bottom: -390px; */
+    }
+}
+@media screen and (max-width: 767px) {
+    .bg-leaders {
+        overflow: hidden;
+    }
+    .leaders-profiles-container .leader-item {
+        max-width: 154px;
+    }
+    .leaders-profiles-container .leader-item img {
+        max-width: 100%;
+        display: block;
+    }
+    .leaders-profiles-container .leader-item {
+        flex: 1 1 200px;
+        height: 270px;
+    }
+    .leaders-profiles-container .leader-item .leader-name {
+        font-size: 16px;
+    }
+    .leaders-profiles-container .leader-item .leader-position {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .leaders-profiles-container {
+        row-gap: 48px;
+        column-gap: 24px;
+    }
+}
+/*linkedin section */
+
+.bg-linkedin {
+    background: #f6f7ff;
+    padding-bottom: 144px;
+}
+.linkedin-section .subtitle-section {
+    max-width: 800px;
+    margin-bottom: 72px;
+}
+.linkedin-section .swiper {
+    height: auto;
+}
+.linkedin-section .swiper .swiper-slide {
+    background-color: #eff0f8;
+    border-radius: 15px;
+}
+.linkedind-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px 5px 10px;
+}
+.microsoft {
+    display: flex;
+    align-items: center;
+}
+.microsoft-icon {
+    margin-right: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.microsoft-icon img {
+    width: 25px;
+    height: 25px;
+}
+.microsoft-content p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+.microsoft-content span {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #575673;
+}
+.linkedin-icon img {
+    width: 35px;
+    height: 35px;
+}
+.linkedind-text {
+    padding: 5px 10px 15px 10px;
+}
+.linkedind-text p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 20px;
+}
+.linkedind-text a {
+    margin-bottom: 5px;
+    color: #575673;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+.linkedind-media {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.linkedind-media img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+.linkedin-share-favorite {
+    padding: 5px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.swiper-pagination-about {
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .linkedin-section .swiper {
+        margin-left: -25px;
+        margin-right: -25px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .linkedin-section .swiper {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

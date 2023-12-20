@@ -1,6 +1,6 @@
 const swiper = new Swiper(".swiper", {
     // Optional parameters
-    loop: true,
+    loop: false,
 
     // If we need pagination
     pagination: {
@@ -12,6 +12,34 @@ const swiper = new Swiper(".swiper", {
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
+    },
+});
+const swiperabout = new Swiper(".linkedin-section .swiper", {
+    // Optional parameters
+    loop: false,
+    slidesPerView: 4,
+    spaceBetween: 20,
+    breakpoints: {
+        // when window width is >= 320px
+        270: {
+            slidesPerView: 1,
+        },
+        420: {
+            slidesPerView: 2,
+        },
+        // when window width is >= 480px
+        767: {
+            slidesPerView: 3,
+        },
+        // when window width is >= 640px
+        992: {
+            slidesPerView: 4,
+        },
+    },
+    // If we need pagination
+    pagination: {
+        el: ".swiper-pagination-about",
+        clickable: true,
     },
 });
 // Get references to the elements
@@ -108,7 +136,6 @@ const imageSources = [
     "images/Brandlogos/16.png",
     "images/Brandlogos/17.png",
     "images/Brandlogos/18.png",
-    "images/Brandlogos/19.png",
     "images/Brandlogos/20.png",
     "images/Brandlogos/21.png",
     "images/Brandlogos/22.png",
@@ -173,7 +200,6 @@ const imageSources = [
     "images/Brandlogos/16.png",
     "images/Brandlogos/17.png",
     "images/Brandlogos/18.png",
-    "images/Brandlogos/19.png",
     "images/Brandlogos/20.png",
     "images/Brandlogos/21.png",
     "images/Brandlogos/22.png",
@@ -232,7 +258,7 @@ function displayImages() {
         img.alt = "Brand Logo"; // Set alt attribute for accessibility
 
         // Append the img element to the brandsList div
-        brandsList.appendChild(img);
+        brandsList?.appendChild(img);
     });
 }
 
