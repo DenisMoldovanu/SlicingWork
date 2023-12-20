@@ -687,33 +687,52 @@ a:hover {
     overflow: hidden;
     position: relative;
     padding-bottom: 72px;
+    height: 400px;
 }
 
 .animated-brands-content {
     width: 200%; /* Adjust the width as per your content */
-    animation: brandsAnimation 10s linear infinite;
     display: flex;
     align-items: center;
+    position: absolute;
+    left: 0px;
+}
+.animated-brands-content.active {
+    left: -370px;
+    transition: 10s ease-in;
 }
 .brands-list {
     display: flex;
     gap: 24px;
+    width: 62%;
     flex-wrap: wrap;
     background-color: #f6f7ff;
 }
 .brands-list img {
     mix-blend-mode: multiply;
 }
-
-@keyframes brandsAnimation {
-    0% {
-        transform: translateX(0%);
+@media screen and (max-width: 1300px) {
+    .animated-brands-container {
+        height: 480px;
     }
-    50% {
-        transform: translateX(-5%); /* Move from right to left till end -5% */
+}
+@media screen and (max-width: 1200px) {
+    .animated-brands-content.active {
+        left: -250px;
     }
-    100% {
-        transform: translateX(0%); /* Go back from left to right -5% */
+}
+@media screen and (max-width: 991px) {
+    .animated-brands-content {
+        width: 200%; /* Adjust the width as per your content */
+        display: flex;
+        align-items: center;
+        position: unset;
+        left: 0px;
+        transition: none;
+    }
+    .animated-brands-content.active {
+        left: 0px;
+        transition: none;
     }
 }
 
