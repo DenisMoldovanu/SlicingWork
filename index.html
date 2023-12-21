@@ -12,6 +12,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
     <title>Document</title>
 </head>
 
@@ -84,12 +85,18 @@
                         </div>
                     </div>
                     <div class="hero-image__block">
-                        <div class="click-block variant1"></div>
-                        <img class="hero-img-variant variant1 active" src="images/svg/Variant1.svg" alt="">
-                        <img class="hero-img-variant variant2" src="images/svg/Variant2.svg" alt="">
-                        <img class="hero-img-variant variant3" src="images/svg/Variant3.svg" alt="">
-                        <img class="hero-img-variant variant4" src="images/svg/Variant4.svg" alt="">
-                        <img class="hero-img-variant variant5" src="images/svg/Variant5.svg" alt="">
+                        <div class="animation-container" id="animation container"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('animation container'),
+                                path: 'connaction.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                                name: 'hero animation'
+                            })
+
+                        </script>
                     </div>
                 </div>
             </div>
