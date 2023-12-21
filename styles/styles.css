@@ -273,7 +273,7 @@ a:hover {
 
 /* Header Section styles */
 .bg-top {
-    background: url(images/background.png);
+    background: url(/images/background.png);
     background-size: cover;
 }
 .header-section {
@@ -715,7 +715,7 @@ a:hover {
     margin-bottom: 16px;
 }
 .howit-works-section .content-block ul li::before {
-    content: url("./images/svg/listicon.svg");
+    content: url("/images/svg/listicon.svg");
     margin-right: 12px;
 }
 .howit-works-section .content-block ul li:last-of-type {
