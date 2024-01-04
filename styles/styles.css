@@ -502,6 +502,12 @@ a:hover {
     align-items: center;
     width: 179px;
     text-decoration: none;
+    color: #495fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 .hero-image__block {
     max-width: 860px;

@@ -12,7 +12,6 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
-    <link rel="stylesheet" type="text/css" href="styles/affiliatesstyle.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
     <title>Document</title>
 </head>
@@ -77,9 +76,9 @@
             <div class="hero-section">
                 <div class="flex-container display-flex">
                     <div class="hero-title__block">
-                        <h1>Maximize Your Earnings as an Amazon Affiliate </h1>
-                        <p>Directly Partner with Thousands of Amazon Sellers - Unlock Opportunities for Up to 60%
-                            Commissions on Sales You Generate  </p>
+                        <h1>Connect with Amazon Influencers and publishers</h1>
+                        <p>Incentivize Amazon affiliates to drive traffic and sales to your Amazon listing with
+                            commission based partnerships.  </p>
                         <div class="hero-btns__block">
                             <a href="" class="join-btn">Join Now</a>
                             <a href="" class="contact-btn">Contact us</a>
@@ -90,33 +89,36 @@
                         <script>
                             var animation = bodymovin.loadAnimation({
                                 container: document.getElementById('animation container'),
-                                path: 'script/connaction2nd.json',
+                                path: 'script/connaction.json',
                                 render: 'svg',
                                 loop: true,
                                 autoplay: true,
                                 name: 'hero animation'
                             })
+
                         </script>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-partners affiliate-partners">
+    <div class="container-fluid bg-partners">
         <div class="partners-section pad-top">
             <span class="section-name">Partners</span>
             <h2 class="title-section">Trusted by 100s of brands like you</h2>
-            <p class="subtitle-section">Browse a diverse range of products to locate what suits your audience. Track
-                every sale generated directly in your Archer portal.</p>
-            <div class="brands-container">
-                <img src="images/svg/brand1.svg" alt="">
-                <img src="images/svg/brand2.svg" alt="">
-                <img src="images/svg/brand3.svg" alt="">
-                <img src="images/svg/brand4.svg" alt="">
-                <img src="images/svg/brand5.svg" alt="">
-                <img src="images/svg/brand6.svg" alt="">
+            <p class="subtitle-section">Connect with 600+ Amazon focused Affiliate marketers who will use
+                Amazon Attribution links to promote your products</p>
+            <div class="animated-brands-container">
+                <div class="animated-brands-content">
+                    <div class="brands-list" id="brandsList">
+
+                    </div>
+                </div>
+                <!-- <img src="images/brandsimg.png" alt="">
+                    <img src="images/brandsimg.png" alt=""> -->
             </div>
         </div>
+    </div>
     </div>
     <div class="container-fluid bg-howit-works">
         <div class="bg-item-right">
@@ -131,34 +133,41 @@
         <div class="container">
             <div class="howit-works-section pad-top">
                 <span class="section-name">HOW IT WORKS</span>
-                <h2 class="title-section">Easily find the right products
-                    for your audience</h2>
-                <p class="subtitle-section">Browse a diverse range of products to locate what suits your audience.
-                    Track every sale generated directly in your Archer portal.</p>
+                <h2 class="title-section">Setup in 5 minutes. No upfront fees.</h2>
+                <p class="subtitle-section">Connect with 600+ Amazon focused Affiliate marketers who will use
+                    Amazon Attribution links to promote your products</p>
                 <div class="offers-block display-flex">
                     <div class="content-block">
                         <div class="icon-block">
                             <img src="images/setupIcon.png" alt="">
                         </div>
-                        <h4>Discover Products</h4>
-                        <p>Search and select from a diverse range of Amazon products that align with your audience's
-                            interests.</p>
+                        <h4>Setup offers</h4>
+                        <ul>
+                            <li>Signup and connect your Amazon Advertising account</li>
+                            <li>Import catalog and choose products to promote</li>
+                            <li>Set large commission offers to incentivize partnerships</li>
+                        </ul>
                     </div>
                     <div class="image-block">
-                        <img src="images/product.png" alt="">
+                        <img src="images/offerimg.png" alt="">
                     </div>
                 </div>
-                <div class="affiliates-block connect-block display-flex">
+                <div class="affiliates-block display-flex">
                     <div class="image-block">
-                        <img src="images/conectbrand.png" alt="">
+                        <img src="images/affiliates.png" alt="">
                     </div>
                     <div class="content-block">
                         <div class="icon-block">
                             <img src="images/affiliatesIcon.png" alt="">
                         </div>
-                        <h4>Connect with Brands </h4>
-                        <p>Build relationships with Amazon brands to access benefits like free product samples and
-                            exclusive promo codes.</p>
+                        <h4>Connect with affiliates</h4>
+                        <ul>
+                            <li><span>Affiliates can find products in Archer's network and can instantly create
+                                    Attribution
+                                    links to include in their content.</span> </li>
+                            <li>Manage product sample requests.</li>
+                            <li>Manage promo code requests.</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="metrics-block display-flex">
@@ -166,26 +175,16 @@
                         <div class="icon-block">
                             <img src="images/metricIcon.png" alt="">
                         </div>
-                        <h4>Create Your Archer Link</h4>
-                        <p>Use your Archer account to generate unique Archer links for the products you choose.</p>
-                        <span>Note: Associate links alone are not eligible for Archer commissions.</span>
+                        <h4>Track performance metrics</h4>
+                        <ul>
+                            <li>All clicks traffic and sales are tracked via Amazon attribution links</li>
+                            <li>All sales are eligible for the Amazon Brand referral bonus</li>
+                            <li>Sales reports are always available in your Amazon Advertising portal and on your Archer
+                                account</li>
+                        </ul>
                     </div>
                     <div class="image-block">
                         <img src="images/metrics.png" alt="">
-                    </div>
-                </div>
-                <div class="affiliates-block display-flex">
-                    <div class="image-block">
-                        <img src="images/Payouts.png" alt="">
-                    </div>
-                    <div class="content-block">
-                        <div class="icon-block">
-                            <img src="images/affiliatesIcon.png" alt="">
-                        </div>
-                        <h4>Track Performance & Receive Automated Payouts</h4>
-                        <p>Monitor the performance of your links and enjoy the convenience of automated monthly payouts.
-                        </p>
-                        <span>Earn an average of 18% commission on your sales through Archer.</span>
                     </div>
                 </div>
                 <div class="btns__container display-flex">
@@ -208,39 +207,54 @@
                         <div class="benefit-item-icon-block">
                             <img src="images/traffic.png" alt="">
                         </div>
-                        <h5>High Average Commission</h5>
-                        <p>Earn an average of 18% commission on sales generated through Archer.</p>
+                        <h5>Drive External Traffic</h5>
+                        <p>Generate significant external traffic to your Amazon listings.</p>
                     </div>
                     <div class="benefits-item">
                         <div class="benefit-item-icon-block">
                             <img src="images/cost.png" alt="">
                         </div>
-                        <h5>Access Trending Products</h5>
-                        <p>Easily find and promote trending Amazon products and attractive promotions to your audience.
+                        <h5>Cost-Effective Approach</h5>
+                        <p>Pay only for actual sales with no risk. No signup fees, no monthly fees, only commissions.
                         </p>
                     </div>
                     <div class="benefits-item">
                         <div class="benefit-item-icon-block">
                             <img src="images/comission.png" alt="">
                         </div>
-                        <h5>Instant Access to Products</h5>
-                        <p>Gain immediate access to promote products from all brands and sellers on Archer without the
-                            need for approvals or negotiations.</p>
+                        <h5>Complete Control on Commission</h5>
+                        <p>You set the commission rates to fit your budget and business objectives.</p>
                     </div>
                     <div class="benefits-item">
                         <div class="benefit-item-icon-block">
                             <img src="images/affiliatesbenefit.png" alt="">
                         </div>
-                        <h5>Exclusive Promo Codes and Samples</h5>
-                        <p>Request and receive exclusive promo codes and product samples from brands.</p>
+                        <h5>Access to Vetted Affiliates</h5>
+                        <p>Hundreds of vetted affiliates are already promoting products like yours, simplifying your
+                            marketing efforts.</p>
                     </div>
                     <div class="benefits-item">
                         <div class="benefit-item-icon-block">
                             <img src="images/profits.png" alt="">
                         </div>
-                        <h5>Extended Attribution Window</h5>
-                        <p>Benefit from a 14-day attribution window for all purchases from the brand you’re promoting.
-                        </p>
+                        <h5>Maximize Your Profits</h5>
+                        <p>All sales are eligible for the Amazon Brand Referral Bonus, helping you save on PPC spend and
+                            keep more profits.</p>
+                    </div>
+                    <div class="benefits-item">
+                        <div class="benefit-item-icon-block">
+                            <img src="images/sales.png" alt="">
+                        </div>
+                        <h5>Boost Organic Sales</h5>
+                        <p>Increase your product's organic sales through sales momentum and generating external
+                            backlinks.</p>
+                    </div>
+                    <div class="benefits-item">
+                        <div class="benefit-item-icon-block">
+                            <img src="images/launches.png" alt="">
+                        </div>
+                        <h5>Ideal for Product Launches</h5>
+                        <p>Use Archer as a powerful tool for launching new products effectively.</p>
                     </div>
                 </div>
             </div>
@@ -465,7 +479,7 @@
                 </div>
             </div>
             <div class="footer-line"></div>
-            <div class="all-rights">© 2077 Archer Affiliates. All rights reserved.</div>
+            <div class="all-rights">© 2023 Archer Affiliates. All rights reserved.</div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
