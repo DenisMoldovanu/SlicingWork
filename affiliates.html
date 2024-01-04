@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="stylesheet" type="text/css" href="styles/affiliatesstyle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
     <title>Document</title>
 </head>
 
@@ -83,6 +84,19 @@
                             <a href="" class="join-btn">Join Now</a>
                             <a href="" class="contact-btn">Contact us</a>
                         </div>
+                    </div>
+                    <div class="hero-image__block">
+                        <div class="animation-container" id="animation container"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('animation container'),
+                                path: 'script/connaction2nd.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                                name: 'hero animation'
+                            })
+                        </script>
                     </div>
                 </div>
             </div>
