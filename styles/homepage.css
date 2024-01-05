@@ -16,6 +16,7 @@
     margin: 0 auto;
     margin-bottom: 12px;
 }
+
 .homepage-hero .hero-title__block h1 span {
     font-weight: 500;
 }
@@ -185,6 +186,7 @@
     font-style: normal;
     font-weight: 500;
 }
+
 .bg-weare {
     position: relative;
     overflow: hidden;
@@ -264,7 +266,23 @@
         max-width: 100%;
     }
 }
-
+@media screen and (max-width: 767px) {
+    .we-are-section {
+        padding: 100px 0px;
+    }
+    .we-are-section .title-top h4 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .we-are-section .title-top p {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .we-are-section .title-top {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
 /* homepage swiper*/
 .bg-homepage-swiper {
     background: linear-gradient(
@@ -281,6 +299,9 @@
 }
 .bg-homepage-swiper .swiper {
     margin-bottom: 96px;
+}
+.bg-homepage-swiper .swiper-section {
+    padding: 0px;
 }
 .bg-homepage-swiper .hero-btns__block {
     justify-content: center;
@@ -305,5 +326,16 @@
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
-    margin-bottom: 96px;
+}
+@media screen and (max-width: 767px) {
+    .bg-homepage-swiper {
+        padding: 100px 0px;
+    }
+    .title-swiper-section {
+        margin-bottom: 50px;
+    }
+    .title-swiper-section h4 {
+        font-size: 32px;
+        line-height: 38px;
+    }
 }
