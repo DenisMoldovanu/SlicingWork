@@ -538,6 +538,11 @@
     .modal-content .account-item{
         max-width: 100%;
     }
+    .modal-content {
+        margin: 0% auto;
+        width: 100%;
+        max-width: 100%;
+      }
 }
   
   .close {
