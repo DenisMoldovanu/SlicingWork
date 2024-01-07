@@ -144,6 +144,12 @@ table {
 html {
     scroll-behavior: smooth;
 }
+a{
+    cursor: pointer !important;
+}
+button{
+    cursor: pointer !important;
+}
 .container {
     max-width: 1680px;
     width: 100%;
