@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const btn = document.getElementById('modalBtn');
 
     // // Get the <span> element that closes the modal
-    // const span = document.getElementsByClassName('close')[0];
+    const span = document.getElementsByClassName('close')[0];
 
     // When the user clicks the button, open the modal
     btn.addEventListener('click', () => {
@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // // When the user clicks on <span> (x), close the modal
-    // span.addEventListener('click', () => {
-    //     modal.style.display = 'none';
-    // });
+    span.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
 
 
     const accountItems = modal.querySelectorAll('.account-item');
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     window.addEventListener('click', function (event) {
-        if (event.target === modal) {
+        if (event.target === modal || event.target === span) {
             resetModalState();
         }
     });
