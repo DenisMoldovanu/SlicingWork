@@ -531,6 +531,22 @@
     line-height: normal;
     margin-bottom: 48px;
   }
+  
+  .close {
+    color: #aaa;
+    text-align: right;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: none;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
   @media screen and (max-width: 991px) {
     .modal-content .cards-section{
         flex-direction: column;
@@ -543,18 +559,7 @@
         width: 100%;
         max-width: 100%;
       }
+      .close {
+        display: block;
+      }
 }
-  
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
