@@ -7,7 +7,6 @@
 .about-hero .hero-title__block h1 {
     color: #495fff;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
@@ -18,7 +17,6 @@
 .about-hero .hero-title__block p {
     color: #01002a;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
@@ -105,7 +103,6 @@
 .leaders-profiles-container .leader-item .leader-name {
     color: #01002a;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -204,13 +201,11 @@
     margin-bottom: 5px;
     font-size: 16px;
     font-weight: 600;
-    font-family: "Montserrat", sans-serif;
 }
 .microsoft-content span {
     margin-bottom: 5px;
     font-size: 16px;
     font-weight: 400;
-    font-family: "Montserrat", sans-serif;
     color: #575673;
 }
 .linkedin-icon img {
@@ -223,14 +218,12 @@
 .linkedind-text p {
     margin-bottom: 5px;
     font-size: 16px;
-    font-family: "Montserrat", sans-serif;
     line-height: 20px;
 }
 .linkedind-text a {
     margin-bottom: 5px;
     color: #575673;
     font-size: 16px;
-    font-family: "Montserrat", sans-serif;
     text-decoration: none;
 }
 .linkedind-media {

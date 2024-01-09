@@ -102,8 +102,8 @@ section {
 }
 body {
     line-height: 1;
-    font-family: "Inter", sans-serif;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: Indivisible;
 }
 ol,
 ul {
@@ -140,14 +140,15 @@ table {
     z-index: 8;
     transition: all 0.3s ease-in-out;
 }
+
 /*General Classes */
 html {
     scroll-behavior: smooth;
 }
-a{
+a {
     cursor: pointer !important;
 }
-button{
+button {
     cursor: pointer !important;
 }
 .container {
@@ -178,7 +179,6 @@ a:hover {
     background: #495fff;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -195,7 +195,6 @@ a:hover {
     color: #495fff;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -215,7 +214,6 @@ a:hover {
 .section-name {
     color: #6276ff;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -229,7 +227,6 @@ a:hover {
     color: #01002a;
     margin: 10px 0px;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
@@ -240,7 +237,6 @@ a:hover {
     color: #575673;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -307,7 +303,6 @@ a:hover {
 .nav-menu ul li a {
     color: #01002a;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -331,7 +326,6 @@ a:hover {
     text-align: center;
     text-decoration: none;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -343,7 +337,6 @@ a:hover {
     background: #495fff;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     width: 134px;
     padding: 16px;
@@ -408,7 +401,6 @@ a:hover {
 .mobile-links ul li a {
     color: #01002a;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -456,7 +448,6 @@ a:hover {
 .hero-title__block h1 {
     color: #01002a;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
@@ -466,7 +457,6 @@ a:hover {
 .hero-title__block p {
     color: #575673;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -489,7 +479,6 @@ a:hover {
     align-items: center;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -708,7 +697,6 @@ a:hover {
 .howit-works-section .content-block h4 {
     color: #01002a;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -718,7 +706,6 @@ a:hover {
 .howit-works-section .content-block ul li {
     color: #575673;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -850,7 +837,6 @@ a:hover {
     color: #01002a;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -948,7 +934,6 @@ a:hover {
 .card-item p {
     color: #575673;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -963,7 +948,6 @@ a:hover {
 .card-item .provider .name {
     color: #495fff;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -972,7 +956,6 @@ a:hover {
 .card-item .provider .stack {
     color: #575673;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1080,7 +1063,6 @@ a:hover {
 .profile-name .name {
     color: #01002a;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -1089,7 +1071,6 @@ a:hover {
 .profile-name .stack {
     color: #01002a;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -1099,7 +1080,6 @@ a:hover {
     color: #575673;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -1191,7 +1171,6 @@ a:hover {
 .form-container form label {
     margin-bottom: 6px;
     color: #575673;
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -1233,7 +1212,6 @@ a:hover {
     background: #495fff;
     color: #fff;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -1257,7 +1235,6 @@ a:hover {
 }
 .contact-item p {
     color: #575673;
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -1304,7 +1281,6 @@ footer {
 .footer-nav-menu ul li a {
     color: #fff;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -1320,7 +1296,6 @@ footer {
     align-items: center;
     text-align: center;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -1344,7 +1319,6 @@ footer {
 .all-rights {
     color: #f6f7ff;
     /* font-family: Indivisible; */
-    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

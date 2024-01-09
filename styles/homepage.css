@@ -7,7 +7,6 @@
 .homepage-hero .hero-title__block h1 {
     color: #495fff;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
@@ -23,7 +22,6 @@
 .homepage-hero .hero-title__block p {
     color: #01002a;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -56,15 +54,25 @@
 }
 @media screen and (max-width: 767px) {
     .homepage-hero {
-        padding: 100px 0px 76px 0px;
+        padding: 76px 0px 100px 0px;
     }
     .homepage-hero .hero-title__block h1 {
         font-size: 32px;
         line-height: 38px;
     }
     .homepage-hero .hero-title__block p {
-        font-size: 30px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: normal;
+        margin-bottom: 32px;
+    }
+    .hero-btns__block {
+        flex-direction: column;
+    }
+    .hero-btns__block .join-btn {
+        width: 100%;
+    }
+    .hero-btns__block .contact-btn {
+        width: 100%;
     }
 }
 
@@ -73,13 +81,14 @@
     background: #f6f7ff;
 }
 .animations-section {
-    padding: 72px 0px;
+    padding: 144px 0px;
 }
 .animation-item:first-of-type {
-    margin-bottom: 100px;
+    margin-bottom: 196px;
 }
 .animation-item {
-    gap: 20px;
+    gap: 96px;
+    justify-content: space-between;
 }
 .animation-text-block {
     max-width: 540px;
@@ -123,7 +132,7 @@
     line-height: 28px;
     margin-bottom: 16px;
 }
-.animation-text-block p span{
+.animation-text-block p span {
     display: inline-block;
     color: #575673;
     font-size: 18px;
@@ -145,9 +154,9 @@
 }
 .animation-text-block .btns-block .link-btn {
     border-radius: 8px;
-    background: #E3E6FF;
+    background: #e3e6ff;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
-    color: #495FFF;
+    color: #495fff;
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -188,17 +197,59 @@
 .animation-text-block img {
     padding-top: 2px;
 }
+.animation-text-block {
+    max-width: 540px;
+    width: 100%;
+}
+.animation-block {
+    max-width: 683px;
+    width: 100%;
+}
+.animations-section .mobile-line {
+    width: 100%;
+    display: none;
+}
+
 @media screen and (max-width: 991px) {
+    .animation-text-block .btns-block {
+        justify-content: center;
+    }
     .animation-item {
-        flex-direction: column-reverse;
+        flex-direction: column;
+        gap: 48px;
     }
     .animation-item:first-of-type {
-        flex-direction: column;
-        margin-bottom: 80px;
+        flex-direction: column-reverse;
+        margin-bottom: 72px;
     }
     .animation-text-block {
-        margin-bottom: 50px;
         max-width: 100%;
+    }
+    .animations-section {
+        padding: 96px 0px;
+    }
+    .animations-section .mobile-line {
+        width: 100%;
+        display: block;
+        margin-bottom: 72px;
+    }
+    .animation-text-block h4 {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .animation-text-block li {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .animation-text-block ul {
+        margin-bottom: 24px;
+    }
+    .animation-text-block p {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .animation-text-block p:last-of-type {
+        margin-bottom: 24px;
     }
 }
 /*partners */
@@ -230,139 +281,12 @@
     z-index: 2;
     bottom: 0;
 }
-
-/* we are section */
-.we-are-section {
-    padding: 144px 0px;
-}
-
-.we-are-section .title-top {
-    text-align: center;
-    margin-bottom: 72px;
-}
-.we-are-section .title-top img {
-    margin-bottom: 24px;
-}
-.we-are-section .title-top span {
-    display: block;
-    color: #6276ff;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-
-    letter-spacing: 1.68px;
-    text-transform: uppercase;
-    margin-bottom: 6px;
-}
-.we-are-section .title-top p {
-    color: #575673;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    margin-bottom: 6px;
-}
-.we-are-section .title-top h4 {
-    color: #01002a;
-    text-align: center;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-}
-
-.bg-weare {
-    position: relative;
-    overflow: hidden;
-}
-.bg-weare .bg-item-image {
-    position: absolute;
-    z-index: -1;
-    left: -500px;
-    top: 300px;
-}
-.we-are-section .content-section {
-    gap: 20px;
-    justify-content: space-between;
-}
-.we-are-section .text-block-content {
-    max-width: 540px;
-}
-.we-are-section .content-section .text-block-content span {
-    display: block;
-    color: #01002a;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-bottom: 24px;
-}
-.we-are-section .content-section .text-block-content p {
-    color: #575673;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    margin-bottom: 24px;
-}
-.we-are-section .content-section .text-block-content a {
-    display: flex;
-    height: 54px;
-    padding: 12px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border-radius: 8px;
-    background: #e3e6ff;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
-    color: #495fff;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-decoration: none;
-    width: 164px;
-    margin-bottom: 48px;
-}
-.we-are-section .image-block-section img {
-    position: relative;
-    margin-right: -200px;
-}
-@media screen and (max-width: 1200px) {
-    .we-are-section .image-block-section img {
-        position: relative;
-        margin-right: -50px;
-        width: 600px;
-    }
-}
 @media screen and (max-width: 991px) {
-    .we-are-section .image-block-section img {
-        position: relative;
-        margin-right: 0px;
-        width: 100%;
+    .bg-partners-homepage .pad-top {
+        padding-bottom: 48px;
     }
-    .we-are-section .content-section {
-        flex-direction: column;
-        gap: 50px;
-    }
-    .we-are-section .text-block-content {
-        max-width: 100%;
-    }
-}
-@media screen and (max-width: 767px) {
-    .we-are-section {
-        padding: 100px 0px;
-    }
-    .we-are-section .title-top h4 {
-        font-size: 32px;
-        line-height: 38px;
-    }
-    .we-are-section .title-top p {
-        font-size: 30px;
-        line-height: 30px;
-    }
-    .we-are-section .title-top {
-        text-align: center;
-        margin-bottom: 25px;
+    .bg-partners-homepage .title-section {
+        margin-bottom: 48px !important;
     }
 }
 /* homepage swiper*/
@@ -411,7 +335,7 @@
 }
 @media screen and (max-width: 767px) {
     .bg-homepage-swiper {
-        padding: 100px 0px;
+        padding: 48px 0px 72px;
     }
     .title-swiper-section {
         margin-bottom: 50px;
@@ -433,9 +357,9 @@
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .modal-content {
+}
+
+.modal-content {
     background-color: white;
     margin: 8% auto;
     padding: 48px;
@@ -443,38 +367,38 @@
     width: 60%;
     max-width: 600px;
     border-radius: 12px;
-    background: #FFF;
-  }
-  .modal-content .cards-section{
+    background: #fff;
+}
+.modal-content .cards-section {
     gap: 24px;
     margin-bottom: 48px;
     justify-content: center;
-  }
- 
-  .modal-content .account-icon{
+}
+
+.modal-content .account-icon {
     width: 60px;
     height: 60px;
     margin-bottom: 24px;
-  }
-  .modal-content h5{
-    color: #01002A;
+}
+.modal-content h5 {
+    color: #01002a;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin-bottom: 12px;
-  }
-  .modal-content p{
+}
+.modal-content p {
     color: #575673;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
-  }
-  .modal-content .register-button{
+}
+.modal-content .register-button {
     border-radius: 8px;
     /* opacity: 0.5; */
-    background: #495FFF;
+    background: #495fff;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
     display: flex;
     height: 54px;
@@ -484,22 +408,22 @@
     align-items: center;
     gap: 8px;
     align-self: stretch;
-    border:none;
-    color: #FFF;
+    border: none;
+    color: #fff;
     text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-  }
-  .modal-content .disabled{
+}
+.modal-content .disabled {
     opacity: 0.5;
-  }
-  .modal-content .account-item{
+}
+.modal-content .account-item {
     border-radius: 6px;
-    border: 1px solid rgba(87, 86, 115, 0.10);
+    border: 1px solid rgba(87, 86, 115, 0.1);
     opacity: 0.75;
-    background: #FFF;
+    background: #fff;
     box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.08);
     display: flex;
     max-width: 220px;
@@ -508,58 +432,58 @@
     flex-direction: column;
     align-items: flex-start;
     cursor: pointer;
-  }
-  .modal-content .account-item.active{
+}
+.modal-content .account-item.active {
     border-radius: 6px;
-    border: 1px solid #495FFF;
-    background: #F6F7FF;
+    border: 1px solid #495fff;
+    background: #f6f7ff;
     box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.08);
-  }
+}
 
-  .modal-content .account-item.active h5{
-    color: #495FFF;
-  }
-  .modal-content .account-item.active svg path{
-    fill:#495FFF;
-  }
-  .modal-content h2 {
-    color: #01002A;
+.modal-content .account-item.active h5 {
+    color: #495fff;
+}
+.modal-content .account-item.active svg path {
+    fill: #495fff;
+}
+.modal-content h2 {
+    color: #01002a;
     text-align: center;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin-bottom: 48px;
-  }
-  
-  .close {
+}
+
+.close {
     color: #aaa;
     text-align: right;
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 20px;
     display: none;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
-  @media screen and (max-width: 991px) {
-    .modal-content .cards-section{
+}
+@media screen and (max-width: 991px) {
+    .modal-content .cards-section {
         flex-direction: column;
     }
-    .modal-content .account-item{
+    .modal-content .account-item {
         max-width: 100%;
     }
     .modal-content {
         margin: 0% auto;
         width: 100%;
         max-width: 100%;
-      }
-      .close {
+    }
+    .close {
         display: block;
-      }
+    }
 }
