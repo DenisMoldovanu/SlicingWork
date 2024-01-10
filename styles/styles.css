@@ -662,17 +662,23 @@ a:hover {
 }
 .howit-works-section .offers-block {
     margin-bottom: 111px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 120px;
 }
 
 .howit-works-section .affiliates-block {
     margin-bottom: 111px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 120px;
+}
+.howit-works-section .connect-block {
+    justify-content: space-between !important;
 }
 
 .howit-works-section .metrics-block {
     margin-bottom: 96px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 120px;
 }
 .howit-works-section .content-block {
     max-width: 540px;
@@ -733,6 +739,7 @@ a:hover {
     .howit-works-section .offers-block {
         flex-direction: column;
         margin-bottom: 62px;
+        gap: 62px;
     }
     .howit-works-section .content-block {
         max-width: 100%;
@@ -752,10 +759,12 @@ a:hover {
     .howit-works-section .affiliates-block {
         flex-direction: column-reverse;
         margin-bottom: 62px;
+        gap: 62px;
     }
     .howit-works-section .metrics-block {
         margin-bottom: 72px;
         flex-direction: column;
+        gap: 72px;
     }
     .bg-howit-works .bg-item-right {
         z-index: 0;
