@@ -275,7 +275,7 @@ a:hover {
 
 /* Header Section styles */
 .bg-top {
-    background: url(/images/background.png);
+    background: url("../images/background.png");
     background-size: cover;
 }
 .header-section {
